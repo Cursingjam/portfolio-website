@@ -140,6 +140,56 @@ export const Projects = () => {
                         </div>
                     
                 </motion.div>
+
+                <motion.div
+                    className="project-card"
+                    variants={fadeInUp}
+                    whileHover={{y: -10, transition: {duration: 0.2}}}
+                >
+                    
+                    <motion.div 
+                        className="project-image"
+                        style={{backgroundImage: `url(${verl1})` }}
+                        whileHover={{scale:1.05, transition: {duration:0.2}}}
+                        whileTap={{scale:0.95}}
+                    />
+                        <h3> WIP</h3>
+                        <p>
+                            A simple template for futures projects, truly 
+                            nothing is happening on this filler project card
+                            at the moment, but something may be added later.
+                        </p>
+                        <div className="project-tech">
+                            <span>::[X]::</span>
+                            <span>::[X]::</span>   
+                        </div>
+                    
+                </motion.div>
+
+                <motion.div
+                    className="project-card"
+                    variants={fadeInUp}
+                    whileHover={{y: -10, transition: {duration: 0.2}}}
+                >
+                    
+                    <motion.div 
+                        className="project-image"
+                        style={{backgroundImage: `url(${verl1})` }}
+                        whileHover={{scale:1.05, transition: {duration:0.2}}}
+                        whileTap={{scale:0.95}}
+                    />
+                        <h3> WIP</h3>
+                        <p>
+                            A simple template for futures projects, truly 
+                            nothing is happening on this filler project card
+                            at the moment, but something may be added later.
+                        </p>
+                        <div className="project-tech">
+                            <span>::[X]::</span>
+                            <span>::[X]::</span>   
+                        </div>
+                    
+                </motion.div>
                 
                 
 
