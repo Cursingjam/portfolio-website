@@ -1,7 +1,6 @@
 
 import { motion} from "framer-motion";
-import Butasan from "../assets/projects/butasan.png"
-import Tume from "../assets/projects/tume.png"
+import verl1 from "../assets/projects/Sketchesverl3.png"
 export const Projects = () => {
 
 
@@ -50,7 +49,7 @@ export const Projects = () => {
 
                     <motion.div 
                         className="project-image"
-                        style={{backgroundImage: `url(${Butasan})` }}
+                        style={{backgroundImage: `url(${verl1})` }}
                         whileHover={{scale:1.05, transition: {duration:0.2}}}
                         whileTap={{scale:0.95}}
                     />
@@ -75,7 +74,7 @@ export const Projects = () => {
                     
                     <motion.div 
                         className="project-image"
-                        style={{backgroundImage: `url(${Tume})` }}
+                        style={{backgroundImage: `url(${verl1})` }}
                         whileHover={{scale:1.05, transition: {duration:0.2}}}
                         whileTap={{scale:0.95}}
                     />
