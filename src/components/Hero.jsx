@@ -80,7 +80,7 @@ export const Hero = () => {
                 className="social-links"
                 variants={staggerContainer}
                 >
-                    <motion.a href="https://github.com/" target="_blank">
+                    <motion.a href="https://github.com/Cursingjam/portfolio-website/tree/main" target="_blank">
                         <i className="fab fa-github"></i>
                     </motion.a>
 
