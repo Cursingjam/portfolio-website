@@ -89,7 +89,7 @@ export const Hero = () => {
                         <i className="fa-brands fa-instagram "></i>
                     </motion.a >
 
-                    <motion.a href="https://www.instagram.com/cursingjam/"
+                    <motion.a href="https://x.com/Cursingjam"
                         target = "_blank">
                         <i className="fa-brands fa-twitter "></i>
                     </motion.a>
