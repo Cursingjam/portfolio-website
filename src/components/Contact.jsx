@@ -130,8 +130,8 @@ export const Contact = () => {
                 onChange={handleInputChange}
                 />
                 <motion.textarea
-                type="enter a message"
-                placeholder="Your text here..."
+                name="message"
+                placeholder="Your mesage..."
                 required
                 whileFocus={{scale:1.02}}
                 onChange={handleInputChange}
