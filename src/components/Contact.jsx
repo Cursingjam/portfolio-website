@@ -20,9 +20,9 @@ const staggerContainer = {
 export const Contact = () => {
     
     const [formData, setFormData] = useState({
-        name:"",
-        email:"",
-        message:"",
+        name: "",
+        email: "",
+        message: "",
     });
 
     const [formStatus, setFormStatus] = useState({
